@@ -2,9 +2,12 @@
 
 int main(void) {
     unsigned int i;
-    for (int i = 10; i >=0; i--)
-    {
-        printf("%u\n",i);
+
+    for (i = 10; i > 0; i--) {
+        printf("%u\n", i);
     }
-    
+
+    printf("%u\n", i);
+
+    return 0;
 }
